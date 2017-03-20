@@ -12,7 +12,7 @@ to [`jest`](https://facebook.github.io/jest/). To use it you must:
 * **replace babel-jest**: Use the transformer here instead by adding
   `"\\.jsx?$": "jest-sourcemaps/lib/transformer.js"` to your
   *jest.transform* config.
-* *add the source-map-support hook** by either setting
+* **add the source-map-support hook** by either setting
   `"setupTestFrameworkScriptFile":
   "jest-sourcemaps/lib/testEnvSetup.js"` in your *jest* config, or by
   requiring the module from your existing setup file
