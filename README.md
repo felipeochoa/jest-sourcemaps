@@ -16,3 +16,5 @@ to [`jest`](https://facebook.github.io/jest/). To use it you must:
   `"setupTestFrameworkScriptFile":
   "jest-sourcemaps/lib/testEnvSetup.js"` in your *jest* config, or by
   requiring the module from your existing setup file
+* **make babel output sourcemaps**: Set `"sourceMaps": "both"` in your `.babelrc`
+* **disable jest's cache**: Run it with `--no-cache`
