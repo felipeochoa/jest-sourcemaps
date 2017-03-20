@@ -1,0 +1,29 @@
+{
+  "name": "jest-sourcemaps",
+  "version": "1.0.0",
+  "description": "Use sourcemaps with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:felipeochoa/jest-sourcemaps"
+  },
+  "keywords": [
+    "jest",
+    "sourcemaps",
+    "source-maps",
+    "source",
+    "map",
+    "maps"
+  ],
+  "author": "Felipe Ochoa",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-istanbul": "^4.0.0",
+    "babel-preset-jest": "^19.0.0",
+    "crypto": "0.0.3",
+    "source-map-support": "^0.4.14"
+  }
+}
